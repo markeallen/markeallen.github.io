@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Annie's post!"
+date:   2017-07-13 10:49:59 -0500
+categories: jekyll update
+---
+<h1>Hi My name is annie, this is a post.</h1>
+<b>Testing bold</b>
+<div>HTML Works</div>
+<u>Underlined</u>
+<br>
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str = document.getElementById("demo").innerHTML;
+    if (str === "Hello World") { document.getElementById("demo").innerHTML = "Goodbye World";}
+    else { document.getElementById("demo").innerHTML  = "Hello World";}
+    
+}
+</script>
